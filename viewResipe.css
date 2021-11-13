@@ -1,0 +1,48 @@
+.viewResipe {
+  text-align: center;
+  margin: 50px 80px;
+  font-size: 18px;
+  font-family: serif;
+}
+
+.category {
+  float: left;
+  padding-left: 120px;
+}
+.name {
+  float: none;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 14px;
+}
+.pic img {
+  float: left;
+  padding: 40px;
+  width: 550px;
+  height: 400px;
+}
+.team {
+  text-align: left;
+}
+.quantityTitle {
+  float: right;
+  padding-top: 50px;
+  padding-right: 70px;
+  font-weight: bolder;
+}
+.foodsTitle {
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.foods {
+  float: left;
+}
+.quantity {
+  text-align: right;
+  margin-right: 80px;
+}
+.howto {
+  float: left;
+}
