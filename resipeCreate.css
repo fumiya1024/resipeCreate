@@ -1,135 +1,76 @@
+body { 
+  height: 100vh;
+  background-image: url(https://beiz.jp/images_L/japanese-paper/japanese-paper_00183.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
 a {
   text-decoration: none;
   color:inherit;
   font-size: 24px;
 }
-li {
-  list-style: none;
-}
-/* ====== delete user agent stylesheet ================= */
-ul {
-  padding-inline-start: 0px;
-  margin-top: 0px;
-}
-p {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-}
-button {
-  appearance: none;
-    font-style:none ;
-    font-variant-ligatures:none ;
-    text-rendering: none;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: none;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: none;
-    cursor: default;
-    box-sizing: border-box;
-    margin: none;
-    padding: none;
-}
-
-
-/* ====== topPage.html ================= */
-.topPage {
-  text-align: center;
-  margin: 180px 0px;
-  height: 200px;
-}
-.first-contents, .second-contents {
-  background-color: white;
-  width: 250px;
-  height: 80px;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 
-    13px 13px 26px #cac5c5,
-    -13px -13px 26px white;
-}
-button:hover {
-  background-color: rgba(231, 231, 231, 0.726);
-}
-
-
-
-/* ======== newResipe ========================== */
-.newResipe {
-  font-size: 16px;
-  font-family: serif;
-  margin: 60px 80px 0px 80px;
-  height: 100%;
-  
-}
-.title {
-  text-align: center;
-  font-weight: bold;
-  font-family: cursive;
-  font-size: 18px;
-  margin-bottom: 70px;
-}
-.category, .name, .pic, .material, .quantity, .howto {
-  float: left;
-  width: 120px;
-}
-.add-mate {
-  margin-bottom: 200px;
-  margin-left: 200px;
-}
-.add-howto{
-  margin-left: 15px;
-}
-.material2 {
-  float: left;
-  margin-left: 80px;
-  width: 350px;
-  display: inherit;
-}
-.enter {
-  margin-left: 80px;
-  float: left;
-}
 input {
-  border:1px solid #adadad;
-  border-radius: 5px;
-  width: 300px;
-  height: 25px;
+  border: none;
 }
-input:hover {
-  border:1.5px solid #adadad;
+.preview {
+  background-color: brown;
+
 }
-input:focus {
-  border: 2px solid rgb(255, 212, 164);
-  box-shadow: 0px 0px 10px  rgba(255, 213, 164, 0.808);
-  outline-width: 0px;
+.viewResipe {
+  text-align: center;
+  margin: 50px 80px;
+  font-size: 18px;
+  font-family: serif;
 }
 
-.text, .img-file {
-  margin-left: 80px;
+.category {
+  float: left;
+  padding-left: 120px;
 }
-.txt-mate, .txt-qua {
-  display: inherit;
+.name {
+  float: none;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 14px;
 }
-.txt-how {
-  width: 650px;
+.pic img {
+  float: left;
+  padding: 40px;
+  width: 550px;
+  height: 400px;
 }
 .team {
-  margin: 30px 0px;
-  width: auto;
+  text-align: left;
+}
+.quantityTitle {
+  float: right;
+  padding-top: 50px;
+  padding-right: 70px;
+  font-weight: bolder;
+}
+.foodsTitle {
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.foods {
+  float: left;
+}
+.quantity {
+  text-align: right;
+  margin-right: 80px;
+}
+.howTo {
+  float: left;
 }
 .btn-newResipe {
   text-align: center;
   font-size: 16px;
-  padding-top: 300px;
+  padding-top: 100px;
   padding-bottom: 80px;
 }
 .btn-back, .btn-create {
@@ -144,25 +85,4 @@ input:focus {
   box-shadow: 
     13px 13px 26px #dbdbdbe1,
     -13px -13px 26px white;
-}
-
-
-/* ======== loadResipe ========================== */
-.resipeList {
-  margin: 50px 80px;
-  font-family: serif;
-}
-.listTitle {
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-  padding-bottom: 50px;
-}
-.cate {
-  text-align: center;
-  width: 33%;
-}
-.cateTitle {
-  font-size: 25px;
-  text-decoration: double underline burlywood;
 }
