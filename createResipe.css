@@ -1,0 +1,76 @@
+input {
+  border: none;
+}
+.viewResipe {
+  text-align: center;
+  margin: 50px 80px;
+  font-size: 18px;
+  font-family: serif;
+}
+.category {
+  float: left;
+  padding-left: 120px;
+}
+.name {
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  width: 600px;
+  padding-top: 30px;
+  margin-bottom: 14px;
+  display: flex;
+}
+.pic, .preview {
+  float: left;
+  padding: 40px;
+  width: 550px;
+  height: 380px;
+  text-align: center;
+}
+.team {
+  text-align: left;
+  height: 500px;
+}
+.quantityTitle {
+  float: right;
+  padding-top: 50px;
+  padding-right: 170px;
+  padding-bottom: 8px;
+  font-weight: bolder;
+}
+.foodsTitle {
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+.foods {
+  float: left;
+  width: 300px;
+  font-size: 18px;
+}
+.quantity {
+  text-align: right;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+#textFoodsName, #textFoods {
+  height: 30px;
+}
+#textFoodsName {
+  width: 300px;
+}
+.howto {
+  padding: 20px 60px 50px 60px;
+  display: flex;
+}
+.howto input {
+  width: 65vw;
+  height: 30px;
+}
+.btnHowto {
+ width: 50px;
+ height: 30px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
