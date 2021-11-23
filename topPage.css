@@ -1,0 +1,40 @@
+body { 
+  height: 100vh;
+  background-image: url(https://beiz.jp/images_L/japanese-paper/japanese-paper_00183.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+a {
+  text-decoration: none;
+  color:inherit;
+  font-size: 24px;
+}
+li {
+  list-style: none;
+}
+
+
+.topPage {
+  text-align: center;
+  margin: 180px 0px;
+  height: 200px;
+}
+.first-contents, .second-contents {
+  background-color: white;
+  width: 250px;
+  height: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 
+    13px 13px 26px #cac5c5,
+    -13px -13px 26px white;
+}
+button:hover {
+  background-color: rgba(231, 231, 231, 0.726);
+}
