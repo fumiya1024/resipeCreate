@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>resipe view</title>
+  <link rel="stylesheet" href="./createResipe.css">
+</head>
+
+<body>
+  <div class="viewResipe">
+    <!-- <div class="title">～レシピ情報記入～</div> -->
+    <div class="items">
+     <input type="text" class="category" half placeholder="分類">
+    </div>
+      
+    <div>
+     <input type="text" class="text name" id="cate-text" half placeholder="料理名">
+     <hr>
+    </div> 
+
+    <div class="pic">
+     <input type="file" id="input">
+     <img id="preview">
+    </div>
+      
+    <div class="team">
+      <div class="quantityTitle">~分量~</div>
+      <div class="foodsTitle">~材料~</div>
+      <div class="foods" id="foods">
+        <input type="text" id="textFoodsName" half placeholder="食材名">
+      </div> 
+      <div class="quantity">
+       <div id="quan">
+        <input type="text" id="textFoods" half placeholder="分量">
+       </div>
+       <button id="addFoods">追加</button>
+      </div>    
+    </div>
+
+    <div class="howto">
+     <ul id="textHow">
+      <li>
+       <input type="text" half placeholder="作り方の手順">
+      </li>
+     </ul>
+     <button class="btnHowto" id="addHow" >追加</button>
+    </div>
+  </div>
+
+ <script src="./app.js"></script>
+</body>
+</html>
